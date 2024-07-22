@@ -1,0 +1,25 @@
+.contact{
+    /* display: flex; */
+    /* height: 395px; */
+    padding: 9px;
+    /* background-color: rgb(160, 160, 241); */
+    position: relative;
+    height: 100vh;
+    
+}
+.contact::after{
+    background-image: url(../images/blog.jpg.jpg);
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.2;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    z-index: -1;
+
+    
+}
